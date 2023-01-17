@@ -1,3 +1,4 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
@@ -31,20 +32,19 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
       body: widgetsChilden[indexTap],
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
-          canvasColor: Colors.black,
+          canvasColor: const Color.fromARGB(255, 68, 68, 68),
           primaryColor: Colors.grey,
         ),
-        child: BottomNavigationBar(
+        child: CurvedNavigationBar(
           onTap: onTapTapped,
-          currentIndex: indexTap,
+          index: indexTap,
+          backgroundColor: const Color.fromARGB(255, 95, 95, 95),
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-            BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-            BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.notifications), label: "Notifications"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.settings), label: "Settings")
+            Icon(Icons.home),
+            Icon(Icons.search),
+            Icon(Icons.person),
+            Icon(Icons.notification_add),
+            Icon(Icons.settings)
           ],
         ),
       ),
