@@ -17,7 +17,8 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
   final List<Widget> widgetsChilden = [
     HomeTrip(),
     const SearchTrips(),
-    ProfileTrips("assets/images/imageOne.jpg")
+    ProfileTrips("Knucles Montain Range", "Hiting, winter fall hunting Natural",
+        "Steps, 123,123,123")
   ];
 
   void onTapTapped(int index) {
