@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'card_image.dart';
 
 class CardImageList extends StatelessWidget {
+  const CardImageList({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(

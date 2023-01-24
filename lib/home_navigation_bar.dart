@@ -17,7 +17,7 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
   final List<Widget> widgetsChilden = [
     HomeTrip(),
     const SearchTrips(),
-    const ProfileTrips()
+    ProfileTrips("assets/images/imageOne.jpg")
   ];
 
   void onTapTapped(int index) {
@@ -38,13 +38,13 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
         child: CurvedNavigationBar(
           onTap: onTapTapped,
           index: indexTap,
-          backgroundColor: const Color.fromARGB(255, 95, 95, 95),
+          backgroundColor: const Color.fromARGB(200, 167, 166, 166),
           items: const [
             Icon(Icons.home),
             Icon(Icons.search),
-            Icon(Icons.person),
-            Icon(Icons.notification_add),
-            Icon(Icons.settings)
+            Icon(Icons.add_circle),
+            Icon(Icons.notification_add_outlined),
+            Icon(Icons.person)
           ],
         ),
       ),

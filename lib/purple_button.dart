@@ -3,7 +3,7 @@ import "package:flutter/material.dart";
 class ButtonPurple extends StatelessWidget {
   String buttonText = "Navigate";
 
-  ButtonPurple(this.buttonText);
+  ButtonPurple(this.buttonText, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class ButtonPurple extends StatelessWidget {
                 Color.fromARGB(255, 57, 55, 82)
               ],
               begin: FractionalOffset(0.2, 0.0),
-              end: FractionalOffset(1.0, 0.6),
+              end: FractionalOffset(0.7, 0.6),
               stops: [0.0, 0.6],
               tileMode: TileMode.clamp,
             ),
