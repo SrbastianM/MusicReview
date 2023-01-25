@@ -1,5 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:social_aplication/place_review.dart';
+import 'package:social_aplication/profile_zone.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
@@ -17,8 +19,7 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
   final List<Widget> widgetsChilden = [
     HomeTrip(),
     const SearchTrips(),
-    ProfileTrips("Knucles Montain Range", "Hiting, winter fall hunting Natural",
-        "Steps, 123,123,123", "assets/images/imageOne.jpg")
+    const ProfileZone(),
   ];
 
   void onTapTapped(int index) {
