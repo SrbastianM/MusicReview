@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
+import 'gradiant_back.dart';
 
-class HeaderProfile extends StatefulWidget {
+class HeaderProfile extends StatelessWidget {
   const HeaderProfile({super.key});
 
   @override
-  State<HeaderProfile> createState() => _HeaderProfileState();
-}
-
-class _HeaderProfileState extends State<HeaderProfile> {
-  @override
   Widget build(BuildContext context) {
-    return Container();
+    return Stack(
+      children: [GradiantBack("Profile")],
+    );
   }
 }
