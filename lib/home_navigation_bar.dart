@@ -18,7 +18,7 @@ class _HomeNavigationBarState extends State<HomeNavigationBar> {
     HomeTrip(),
     const SearchTrips(),
     ProfileTrips("Knucles Montain Range", "Hiting, winter fall hunting Natural",
-        "Steps, 123,123,123")
+        "Steps, 123,123,123", "assets/images/imageOne.jpg")
   ];
 
   void onTapTapped(int index) {
