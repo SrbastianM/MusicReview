@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:social_aplication/floating_action_button_green.dart';
 
+// ignore: must_be_immutable
 class ProfileTrips extends StatelessWidget {
   String mainTitleCard;
   String placeName;
@@ -79,7 +81,7 @@ class ProfileTrips extends StatelessWidget {
       child: Container(
         width: 280.0,
         height: 120.0,
-        margin: const EdgeInsets.only(top: 280.0, left: 10.0),
+        margin: const EdgeInsets.only(top: 330.0, left: 10.0),
         decoration: const BoxDecoration(
           color: Color.fromARGB(255, 255, 255, 255),
           borderRadius: BorderRadius.all(
@@ -98,7 +100,11 @@ class ProfileTrips extends StatelessWidget {
           child: Container(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [titleProfileCard, descriptionPlace, stepsWalking],
+              children: [
+                titleProfileCard,
+                descriptionPlace,
+                stepsWalking,
+              ],
             ),
           ),
         ),
@@ -106,7 +112,12 @@ class ProfileTrips extends StatelessWidget {
     );
 
     return Stack(
-      children: [profileCard, descriptionBox],
+      alignment: const Alignment(0.68, 0.65),
+      children: [
+        profileCard,
+        descriptionBox,
+        const FloatingActionButtonGreen()
+      ],
     );
   }
 }
