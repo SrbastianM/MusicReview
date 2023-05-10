@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'profile_trips.dart';
+import '../domain/profile/profile_trips.dart';
 
 class PlaceReviewList extends StatelessWidget {
   const PlaceReviewList({super.key});

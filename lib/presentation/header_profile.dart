@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../domain/gradiant_profile_back.dart';
-import '../domain/header_profile_appbar.dart';
+import '../domain/profile/gradiant_profile_back.dart';
+import '../domain/profile/header_profile_appbar.dart';
 
 class HeaderProfile extends StatelessWidget {
   const HeaderProfile({super.key});

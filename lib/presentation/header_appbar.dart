@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'gradiant_back.dart';
+import '../domain/home/gradiant_back.dart';
 import 'card_image_list.dart';
 
 class HeaderAppbar extends StatelessWidget {

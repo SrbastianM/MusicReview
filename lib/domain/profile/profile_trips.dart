@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_aplication/floating_action_button_green.dart';
+import 'package:social_aplication/domain/home/floating_action_button_green.dart';
 
 // ignore: must_be_immutable
 class ProfileTrips extends StatelessWidget {

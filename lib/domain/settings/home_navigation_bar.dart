@@ -2,9 +2,9 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:social_aplication/presentation/place_review.dart';
 import 'package:social_aplication/presentation/profile_zone.dart';
-import '../search_trips.dart';
-import 'home_trips.dart';
-import 'profile_trips.dart';
+import '../../search_trips.dart';
+import '../home/home_trips.dart';
+import '../profile/profile_trips.dart';
 
 class HomeNavigationBar extends StatefulWidget {
   const HomeNavigationBar({super.key});

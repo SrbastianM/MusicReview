@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'domain/home_navigation_bar.dart';
+import 'domain/settings/home_navigation_bar.dart';
 
 void main() {
   runApp(const MyApp());

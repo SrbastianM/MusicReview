@@ -59,7 +59,37 @@ class HeaderProfileAppbar extends StatelessWidget {
     final iconSection = Container(
       margin: const EdgeInsets.only(top: 250.0, left: 20.0),
       child: Row(
-        children: const [],
+        children: const [
+          Icon(
+            Icons.settings,
+            size: 40.0,
+            color: Color.fromARGB(199, 252, 252, 252),
+          ),
+          SizedBox(
+            width: 70.0,
+          ),
+          Icon(
+            Icons.color_lens,
+            size: 40.0,
+            color: Color.fromARGB(199, 252, 252, 252),
+          ),
+          SizedBox(
+            width: 70.0,
+          ),
+          Icon(
+            Icons.notifications,
+            size: 40.0,
+            color: Color.fromARGB(199, 252, 252, 252),
+          ),
+          SizedBox(
+            width: 60.0,
+          ),
+          Icon(
+            Icons.book,
+            size: 40.0,
+            color: Color.fromARGB(199, 252, 252, 252),
+          ),
+        ],
       ),
     );
 

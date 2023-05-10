@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_aplication/header_profile.dart';
+import 'package:social_aplication/presentation/header_profile.dart';
 import 'place_review.dart';
 
 class ProfileZone extends StatelessWidget {
